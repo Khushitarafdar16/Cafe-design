@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #8B0000;
+    --secondary-color: #F8EDE3;
+    --accent-color: #C49A6C;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding-top: 70px;
+}
+
+.navbar {
+    .navbar {
+    background-color: rgba(139, 0, 0, 0.95);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover;
+}
+
+.btn-theme {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.btn-theme:hover {
+    background-color: var(--primary-color);
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.menu-card {
+    transition: transform 0.3s;
+    border-radius: 15px;
+    border: 2px solid;
+    var(--secondary-color);
+    background-color: bisque;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px;
+    rgba(0,0,0,0.2);
+}
+
+.price {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.footer {
+    background-color: var(--primary-color);
+}
+
+.contact-form {
+    background-color:#8B0000;
+}
+
+.cafe-brand {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color:black;
+}
+
+.cafe-brand:hover {
+    color: var(--accent-color) !important;
+}
+
+.hero-section h1 {
+    letter-spacing: 2px;
+}
+
+.hero-section h2 {
+    color: var(--accent-color);
+}   
+
+.cafe-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #8B0000;   /* DARK color so visible */
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #333;
+}
